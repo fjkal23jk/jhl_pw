@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { withPrefix } from 'gatsby'
 
 const ListLink = props => (
     <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -18,6 +19,12 @@ export default function Layout({ children }) {
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
+          <a 
+            rel="noopener noreferrer"
+            href={withPrefix('/resume.pdf')}
+            type="application/pdf" 
+            target="_blank">Resume
+          </a>
         </ul>
       </header>
       {children}

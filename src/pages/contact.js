@@ -6,11 +6,18 @@ import Layout from "../components/layout"
 export default function Contact() {
   return (
     <Layout>
-      <Header headerText="Contact Info" />
-      <h5>I'd love to talk! Email me at the address below</h5>
+      <div class="contact_page">
+      <br/><br/>
+      <Header headerText="Contact Info" /><br/><br/>
+      <h5>I am currently looking for new opportunities, so my inbox is always open.</h5><br/><br/>
+
       <p>
-        <a href="mailto:jadenluo@gmail.com">jadenluo@gmail.com</a>
+        <button class="email_button"><a href="mailto:jadenluo@gmail.com" class="email_info" >Say Hello</a></button><br/><br/>
+        <h3><bold>OR</bold></h3>
+        
+        
       </p>
+      </div>
     </Layout>
   )
 }

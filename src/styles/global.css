@@ -1,3 +1,14 @@
 html{
     background-color: rgb(237, 235, 228);
 }
+.email_info{
+    font-style: italic;
+    color: black;
+}
+.email_button{
+    height: 100px;
+    width: 150px;
+}
+.contact_page{
+    text-align: center;
+}
