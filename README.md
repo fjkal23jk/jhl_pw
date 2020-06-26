@@ -1,4 +1,4 @@
 gatsby develop
 
 Used gatsby, animate.css, 
-site: https://build-f709ce05-a08d-4d02-a69a-251700695a33.gtsb.io/
+site: build-2d73e7f0-8d70-4433-a78b-57b4c1347d1f.gtsb.io
